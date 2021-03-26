@@ -1,0 +1,22 @@
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Editor Files #
+################
+*~
+*.swp
+\#*\#
+
+# Node Files #
+node_modules
+
+# IntelliJ/WebStorm/JetBrains specific files/directories #
+##########################################################
+.idea
+*.ipr
+*.iws
+*.iml
