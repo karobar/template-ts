@@ -2,8 +2,6 @@
 
 Clone this repo.
 
-This template will run linting tools before each `git push`.
-
 #### Components
 * [ESLint (linting)](https://eslint.org/docs/user-guide/getting-started)
 * [husky (git hook management)](https://typicode.github.io/husky/#/)
@@ -11,12 +9,14 @@ This template will run linting tools before each `git push`.
 
 # Initialize Template
 
-    ./prepare.sh
+    ./prepare.sh && rm ./prepare.sh
 
 # To run
 
     yarn start
 
 # To test
+This template will run linting tools before each `git push`, but if you
+want to run those linting tools yourself manually, run:
 
     yarn test
