@@ -20,4 +20,4 @@ rm -rf .git
 
 git init
 git add .
-git commit -a -m "Initial commit of electron-template ($version)"
+git commit -a -m "Initial commit of node-template ($version)"
