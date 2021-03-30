@@ -11,12 +11,13 @@ Thumbs.db
 *.swp
 \#*\#
 
-# Node Files #
-node_modules
-
 # IntelliJ/WebStorm/JetBrains specific files/directories #
 ##########################################################
 .idea
 *.ipr
 *.iws
 *.iml
+
+# Node.js Files #
+#################
+node_modules
