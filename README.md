@@ -1,6 +1,6 @@
-# Node Template
+# TypeScript Template
 
-Clone this repo.
+Start with a nice baseline of tools.
 
 #### Components
 * [ESLint (linting)](https://eslint.org/docs/user-guide/getting-started)
