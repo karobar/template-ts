@@ -7,6 +7,8 @@ Clone this repo.
 * [husky (git hook management)](https://typicode.github.io/husky/#/)
 * [EditorConfig (IDE configuration)](https://editorconfig.org/)
 
+# Installation Instructions
+## Option 1: NPM + Yarn
 ### Initialize Template
 
     ./prepare.sh && rm ./prepare.sh
@@ -21,3 +23,6 @@ This template will run automated tests and linting tools before each `git push`,
 want to run those linting tools yourself manually, run:
 
     yarn test
+
+## Option 2: pnpm
+TBD

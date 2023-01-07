@@ -2,10 +2,10 @@
   "name": "node-template",
   "version": "0.1.0",
   "description": "",
-  "main": "src/main.js",
+  "main": "src/main.ts",
   "scripts": {
     "test": "eslint \"**/*.js\"",
-    "start": "node src/main.js"
+    "start": "node src/main.ts"
   },
   "husky": {
     "hooks": {
