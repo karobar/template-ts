@@ -25,4 +25,11 @@ want to run those linting tools yourself manually, run:
     yarn test
 
 ## Option 2: pnpm
-TBD
+### Initialize Template
+
+    ./prepare.sh && rm ./prepare.sh
+    pnpm install
+    
+### To run
+
+    pnpm start
