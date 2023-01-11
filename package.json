@@ -6,11 +6,8 @@
   "scripts": {
     "test": "eslint \"**/*.ts\"",
     "start": "npm run ts-node src/main.ts",
-    "ts-node": "ts-node"},
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run test"
-    }
+    "ts-node": "ts-node",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
