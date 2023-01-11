@@ -5,8 +5,8 @@
   "main": "src/main.ts",
   "scripts": {
     "test": "eslint \"**/*.js\"",
-    "start": "node src/main.ts"
-  },
+    "start": "pnpm run ts-node src/main.ts",
+    "ts-node": "ts-node"},
   "husky": {
     "hooks": {
       "pre-push": "yarn run test"
@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^18.11.18",
     "eslint": "^7.23.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
