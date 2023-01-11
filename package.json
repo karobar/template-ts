@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
-    "test": "eslint \"**/*.ts\"",
+    "lint": "eslint --ext .ts .",
     "start": "npm run ts-node src/main.ts",
     "ts-node": "ts-node",
     "prepare": "husky install"
@@ -14,7 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.11.18",
-    "eslint": "^7.23.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
