@@ -4,12 +4,12 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
-    "test": "eslint \"**/*.js\"",
-    "start": "pnpm run ts-node src/main.ts",
+    "test": "eslint \"**/*.ts\"",
+    "start": "npm run ts-node src/main.ts",
     "ts-node": "ts-node"},
   "husky": {
     "hooks": {
-      "pre-push": "yarn run test"
+      "pre-push": "npm run test"
     }
   },
   "keywords": [],
